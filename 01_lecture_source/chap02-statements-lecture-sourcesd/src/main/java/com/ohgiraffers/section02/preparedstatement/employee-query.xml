@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone = "no "?>
+<!DOCTYPE properties STSTEM "htto://java.sun.com/dtd/properties.dtd">
+<!-- 주석부분
+    DOCTYPE : 문서의 형태 xml -->
+
+<properties>
+    <entry key ="selectEmptyByFamilyName">
+        SELECT
+            *
+        FROM
+            EMPLOYEE
+        WHERE
+            EMP_NAME LIKE CONTACT(?, '%')
+    </entry>
+</properties>
